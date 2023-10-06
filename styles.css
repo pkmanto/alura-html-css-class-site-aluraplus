@@ -157,3 +157,38 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+
+@media screen and (max-width: 768px) {
+    /* Primeira Section */
+    .container {
+        display: block; /* Coloca os itens na posição de coluna */
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    /* Segunda/Terceira/Quarta Section */
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    /* Rodapé Section */
+    .dispositivos__lista {
+        display: block; /* Coloca os itens na posição de coluna */
+    }
+
+    .rodape__lista {
+        display: block; /* Coloca os itens na posição de coluna */
+    }
+}
